@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 
 :root {
-	--red: #a33737;
+	--red: #c21a1a;
 }
 body {
     font-family: 'Montserrat', sans-serif;
@@ -16,12 +16,17 @@ body {
 	justify-content: space-between;
 	align-items: center;
     padding-inline: 10px;
-    background: linear-gradient(#dedede, #fdecec, #ffffff);
-    
+    background: linear-gradient(#220101, #210707, #130909);
+   
 }
 
 nav h1 {
     color: var(--red);
+    align-content: center;
+}
+.logo-nav {
+    width: 60px;
+    border-radius: 100px;
 }
 
 nav ul {
@@ -30,8 +35,9 @@ nav ul {
     align-items: center;
     gap: 20px;
     list-style: none;
-    color: black;
+    color: white;
 }
+
 
 header {
     padding: 40px;
@@ -40,12 +46,13 @@ header {
     justify-content: space-around;
     align-items: center;
     background-color: #a33737;
-    background: linear-gradient(#520303, #750303, #380202);
+    background: linear-gradient(#130909, #210707, #220101);
     color: white;
 }
 
 header img {
     border-radius: 100px;
+    width: 100px;
 }
 
 button {
@@ -62,13 +69,28 @@ button:hover {
     
 }
 
+
+
+
+
+.apropos {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background: linear-gradient(#130909, #210707, #220101);
+}	
+
 footer {
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    background: linear-gradient(#520303, #750303, #380202);
+    /*background: linear-gradient(#130909, #210707, #220101);*/
+    background-color: white;
     
-    color: white;
+    
 }
