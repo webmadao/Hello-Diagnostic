@@ -19,8 +19,8 @@ a{
 }
 
 a:hover {
-    background-color: white;
-    color: black;
+    background-color: var(--red);
+    
 }
 
  nav {
@@ -84,10 +84,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-   /* background: linear-gradient(#790101, #430202, #1d0101);*/
-   background-color: red;
-}
+
 
 .activites ul {
     display: flex;
@@ -115,7 +112,7 @@ button:hover {
   }
   
   .activites i {
-    color: #c21a1a;
+    color: var(--red);
     background-color: #f1bdbd;
     padding: 12px;
     border-radius: 15px;
@@ -137,7 +134,7 @@ button:hover {
 .apropos p {
     max-width: 500px;
     border-left: solid 2px white;
-    padding-left: 10px;
+    padding: 0 20px 0 10px;
 }
 
 .apropos img{
@@ -145,10 +142,6 @@ button:hover {
     width: 350px;
     box-shadow: 5px 0px 5px 5px rgb(28, 26, 26);
 }
-
-
-  
-  
 
 
 
@@ -182,4 +175,9 @@ footer ul li{
   .activites li {
     flex-basis: calc(80% - 40px);
   }
+  nav ul{
+    font-size: smaller;
+  }
 }
+
+
