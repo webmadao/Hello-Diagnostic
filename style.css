@@ -110,6 +110,10 @@ button {
     border-right: solid 1px black;
     border-bottom: solid 1px black;
   }
+
+  figcaption p{
+    box-shadow: 5px 0px 3px 1px rgb(28, 26, 26);
+  }
   
   .activites i {
     color: var(--red);
@@ -168,6 +172,12 @@ footer h3{
 
 footer ul li{
     list-style: none;
+}
+
+.contact a {
+    border: none;
+    background-color: inherit;
+    padding-inline: 0;
 }
 
 /* Media query pour les écrans de largeur maximale de 600px (version mobile) */
